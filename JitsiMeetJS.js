@@ -5,8 +5,7 @@ var Connection = require("./Connection");
  */
 var LibJitsiMeet = {
 
-    Connection: Connection,
-
+    Connection: Connection
 
 }
 
