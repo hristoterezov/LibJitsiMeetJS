@@ -26,23 +26,6 @@ Stream.prototype.unmute = function () {
 }
 
 /**
- * Adds handler for event.
- * @param eventId the ID of the event.
- * @param handler the handler for the event.
- */
-Stream.prototype.addEventListener = function (eventId, handler) {
-
-}
-
-/**
- * Removes the handlers for that event
- * @param eventId the ID of the event
- */
-Stream.prototype.removeEventListener = function (eventId) {
-
-}
-
-/**
  * Attaches the stream to HTML container.
  * @param container the HTML container
  */
