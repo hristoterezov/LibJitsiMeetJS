@@ -1,11 +1,10 @@
 /**
  * Creates a Conference object with the given name and properties.
  * @param name name of the conference.
- * @param options Object with properties / settings related to the conference that will be created.
+ * @param config Object with properties/settings specific to the Conference.
  * @constructor
  */
-
-function Conference(name, options) {
+function Conference(name, config) {
     
 }
 
