@@ -1,6 +1,5 @@
 var Connection = require("./Connection");
 var ConferenceEvents = require("./ConferenceEvents");
-var StreamEvents = require("./StreamEvents");
 
 /**
  * Namespace for the interface of Jitsi Meet Library.
