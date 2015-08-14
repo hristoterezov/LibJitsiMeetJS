@@ -45,7 +45,7 @@ Connection.prototype.setToken = function (token) {
  * @param options Object with properties / settings related to the conference that will be created.
  * @returns {Conference} returns the new conference object.
  */
-Connection.prototype.initConference = function (name, options) {
+Connection.prototype.createConference = function (name, options) {
     return new Conference();
 }
 
