@@ -66,3 +66,4 @@ Stream.prototype.stop = function () {
 
 }
 
+module.exports = Stream;
