@@ -32,6 +32,10 @@ var ConferenceEvents = {
      */
     DISPLAY_NAME_CHANGED: "conference.displayNameChanged",
     /**
+     * A participant avatar has changed.
+     */
+    AVATAR_CHANGED: "conference.avatarChanged",
+    /**
      * New connection statistics are received.
      */
     CONNECTION_STATS_RECEIVED: "conference.connectionStatsReceived",
@@ -50,7 +54,15 @@ var ConferenceEvents = {
     /**
      * Audio levels of a stream was changed.
      */
-    STREAM_AUDIO_LEVEL_CHANGED: "conference.audioLevelsChanged"
+    STREAM_AUDIO_LEVEL_CHANGED: "conference.audioLevelsChanged",
+    /**
+     * Indicates that the connection to the conference has been interrupted for some reason.
+     */
+    CONNECTION_INTERRUPTED: "conference.connecionInterrupted",
+    /**
+     * Indicates that the connection to the conference has been restored.
+     */
+    CONNECTION_RESTORED: "conference.connecionRestored"
 };
 
 module.exports = ConferenceEvents;
