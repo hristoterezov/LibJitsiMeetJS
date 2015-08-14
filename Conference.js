@@ -36,7 +36,8 @@ Conference.prototype.createMediaStreams = function (options, successCallback, er
 }
 
 /**
- * Attaches a handler for events(For example - "participant joined".) in the conference.
+ * Attaches a handler for events(For example - "participant joined".) in the conference. All possible event are defined
+ * in ConferenceEvents.
  * @param eventId the event ID.
  * @param handler handler for the event.
  */
@@ -53,7 +54,7 @@ Conference.prototype.removeEventListener = function (eventId) {
 }
 
 /**
- * Receives notifications from another participants for commands / custom events(send by sendCommand method).
+ * Receives notifications from another participants for commands / custom events(send by sendPresenceCommand method).
  * @param command {String} the name of the command
  * @param handler {Function} handler for the command
  */
@@ -124,5 +125,22 @@ Conference.prototype.startDesktopSharing = function() {
 Conference.prototype.endDesktopSharing = function() {
 
 }
+
+/**
+ * Elects the participant with the given id to be the selected participant or the speaker.
+ * @param id the identifier of the participant
+ */
+Conference.prototype.selectParticipant = function(participantId) {
+
+}
+
+/**
+ * Returns the list of participants for this conference.
+ * @return Object a list of participant identifiers containing all conference participants.
+ */
+Conference.prototype.getParticipants = function() {
+
+}
+
 
 module.exports = Conference;

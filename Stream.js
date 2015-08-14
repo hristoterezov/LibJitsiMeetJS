@@ -6,6 +6,35 @@ function Stream()
 {
 
 }
+
+/**
+ * Stream video type.
+ * @type {string}
+ */
+Stream.VIDEO = "video";
+
+/**
+ * Stream audio type.
+ * @type {string}
+ */
+Stream.AUDIO = "audio";
+
+/**
+ * Stream desktop sharing type.
+ * @type {string}
+ */
+Stream.DESKTOP_SHARING = "desktopsharing";
+
+/**
+ * The media stream type.
+ */
+Stream.prototype.streamType;
+
+/**
+ * The corresponding participant identifier.
+ */
+Stream.prototype.participantId;
+
 /**
  * The media stream from the browser.
  */
