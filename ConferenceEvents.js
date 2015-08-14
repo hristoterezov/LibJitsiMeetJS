@@ -30,11 +30,11 @@ var ConferenceEvents = {
     /**
      * A user has changed it display name
      */
-    DISPLAY_NAME: "conference.displayName",
+    DISPLAY_NAME_CHANGED: "conference.displayNameChanged",
     /**
      * New connection statistics are received.
      */
-    CONNECTION_STATS: "conference.connectionStats",
+    CONNECTION_STATS_RECEIVED: "conference.connectionStatsReceived",
     /**
      * The Last N set is changed.
      */
@@ -50,7 +50,7 @@ var ConferenceEvents = {
     /**
      * Audio levels of a stream was changed.
      */
-    STREAM_AUDIO_LEVEL: "conference.audioLevels"
+    STREAM_AUDIO_LEVEL_CHANGED: "conference.audioLevelsChanged"
 };
 
 module.exports = ConferenceEvents;
